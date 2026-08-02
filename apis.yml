@@ -1,21 +1,45 @@
 aid: verio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/verio.png
 name: Verio
-description: 'Verio is a company surfaced as a portfolio company of norwest-venture-partners and added
-  to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Verio was a global web hosting provider and internet service provider that pioneered the ISP
+  "rollup" model, acquiring more than 200 smaller ISPs and hosting companies after its 1996 founding in
+  Denver, Colorado. It went public on NASDAQ (ticker VRIO) in 1999 and was acquired by NTT Communications
+  in 2000 for roughly $5 billion. In 2015 its SMB shared-hosting division was sold to Endurance International
+  Group, and the Verio brand is now operated within Newfold Digital, redirecting to Network Solutions /
+  iPage. The company exposes no public developer or API surface; the verio.com apex no longer resolves and
+  www.verio.com redirects to Network Solutions. This profile is retained as a legacy/defunct company record.'
 url: https://raw.githubusercontent.com/api-evangelist/verio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
+x-status: defunct
+x-status-note: 'Acquired by NTT Communications (2000); SMB hosting sold to Endurance International Group
+  (2015); brand now folded into Newfold Digital, www.verio.com redirects to Network Solutions. No API surface.'
 x-backed-by:
 - norwest-venture-partners
 x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Unknown
+- Web Hosting
+- Internet Service Provider
+- Domains
+- Email
+- Legacy
+- Defunct
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,4 +48,9 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://verio.com
+  url: https://www.verio.com
+x-enrichment:
+  date: '2026-07-21'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
