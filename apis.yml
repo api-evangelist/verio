@@ -21,6 +21,8 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
+  source:
+  - {url: 'https://www.verio.com', status: 301, note: 'declared website redirects to https://www.networksolutions.com/ipage?brand=ipage&siteID=100&channelID=P99C100S653N0B5A1D0E0000V113 — a different registrable domain (verio.com -> networksolutions.com), possible rename or acquisition (probed 2026-09-03, roadmap#169)'}
 image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/verio.png
 name: Verio
 description: 'Verio was a global web hosting provider and internet service provider that pioneered the ISP
